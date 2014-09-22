@@ -116,7 +116,7 @@ namespace Resumere.TonkaBean.RCON
 				byte[] sendPacket = requestPacket.GetBytes();
 				int bytesSent = ClientSocket.Send(sendPacket);
 
-				byte[] bytesReceived = new byte[4092];
+				byte[] bytesReceived = new byte[4096];
 				int bytesReceiveSize = ClientSocket.Receive(bytesReceived);
 
 				result = new ResponsePacket(bytesReceived, requestPacket);

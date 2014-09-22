@@ -5,15 +5,6 @@ namespace Resumere.TonkaBean.Client
 {
 	public interface ITonkaClient
 	{
-		string Hostname { get; set; }
-		ushort PortNumber { get; set; }
-		string Password { get; set; }
-
-		void SetProperties(string hostname, ushort portNumber, string password);
-
-		void Connect();
-
-		void Disconnect();
 
 		IEnumerable<string> GetCurrentUsers();
 

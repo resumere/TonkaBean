@@ -6,7 +6,7 @@ using Resumere.TonkaBean.RCON;
 namespace Resumere.TonkaBean.Client
 {
 	[Serializable]
-	public class TonkaClient : RemoteClient
+	public class TonkaClient : RemoteClient, ITonkaClient
 	{
 
 		public TonkaClient()

@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Resumere.TonkaBean.Enums;
+﻿using Resumere.TonkaBean.Enums;
 using Resumere.TonkaBean.RCON;
+using System;
+using System.Collections.Generic;
 using System.Security;
 
 namespace Resumere.TonkaBean.Client

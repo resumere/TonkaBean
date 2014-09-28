@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using Resumere.TonkaBean.Enums;
+﻿using Resumere.TonkaBean.Enums;
+using System.Collections.Generic;
 
 namespace Resumere.TonkaBean.Client
 {

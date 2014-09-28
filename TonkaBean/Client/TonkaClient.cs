@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Resumere.TonkaBean.Enums;
 using Resumere.TonkaBean.RCON;
+using System.Security;
 
 namespace Resumere.TonkaBean.Client
 {
@@ -14,9 +15,10 @@ namespace Resumere.TonkaBean.Client
 		{
 		}
 
-		public TonkaClient(string hostname, ushort portNumber, string password)
+		public TonkaClient(string hostname, ushort portNumber, SecureString password)
 			: base(hostname, portNumber, password)
 		{
+
 		}
 
 		public IEnumerable<string> GetCurrentUsers()

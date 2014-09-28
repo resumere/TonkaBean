@@ -54,6 +54,7 @@
     <Compile Include="RCON\PacketTypes.cs" />
     <Compile Include="RCON\RequestPacket.cs" />
     <Compile Include="RCON\ResponsePacket.cs" />
+    <Compile Include="Utils\SecureUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
